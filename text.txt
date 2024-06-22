@@ -1,0 +1,46 @@
+PS D:\git proj\task\final_task_martos> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean        
+PS D:\git proj\task\final_task_martos> git branch
+  developer
+* main
+PS D:\git proj\task\final_task_martos> git log
+commit 95e5dc72cf3b55b435dec75050f894ac864a910a (HEAD -> main, origin/main, origin/HEAD)
+Author: NazarMartos <90024491+NazarMartos@users.noreply.github.com>
+Date:   Sat Jun 22 15:44:13 2024 +0300
+
+    Create style.css
+
+commit b6df30d26e537e12613aee3506c68f0a16742ea9
+Merge: dcb8092 8a893ea
+Author: NazarMartos <nnazarmartoss@gmail.com>
+Date:   Sat Jun 22 15:42:12 2024 +0300
+
+    Merged from developer branch
+
+commit dcb80924d5d4935b9f49b114e2708adbf5295b7d
+Author: NazarMartos <nnazarmartoss@gmail.com>
+Date:   Sat Jun 22 15:17:47 2024 +0300
+
+    deleted part of lorem
+commit 95e5dc72cf3b55b435dec75050f894ac864a910a (HEAD -> main, origin/main, origin/HEAD)    
+Author: NazarMartos <90024491+NazarMartos@users.noreply.github.com>
+Date:   Sat Jun 22 15:44:13 2024 +0300
+
+    Create style.css
+
+commit b6df30d26e537e12613aee3506c68f0a16742ea9
+Merge: dcb8092 8a893ea
+Author: NazarMartos <nnazarmartoss@gmail.com>
+Date:   Sat Jun 22 15:42:12 2024 +0300
+
+    Merged from developer branch
+PS D:\git proj\task\final_task_martos> git log --merges
+commit b6df30d26e537e12613aee3506c68f0a16742ea9
+Merge: dcb8092 8a893ea
+Author: NazarMartos <nnazarmartoss@gmail.com>
+Date:   Sat Jun 22 15:42:12 2024 +0300
+
+    Merged from developer branch
